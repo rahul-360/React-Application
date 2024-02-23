@@ -1,4 +1,41 @@
-.mfg-date{
+.mfg-date {
+    display: flex;
     text-align: center;
+    justify-content: space-around;
     background-color: aqua;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin: 10px 100px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px auto;
+    padding: 0px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.date span {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 700px;
 }
