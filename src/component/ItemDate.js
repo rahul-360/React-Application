@@ -6,8 +6,6 @@ function ItemDate(props) {
     const month = props.month;
     const year = props.year;
 
-
-
     return (
         <>
             <div className='mfg-date'>
