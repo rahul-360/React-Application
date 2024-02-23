@@ -2,6 +2,7 @@ import './App.css';
 import Item from './component/Item';
 import ItemDate from './component/ItemDate';
 import Card from './component/Card';
+import NewProduct from './component/NewProduct';
 
 function App() {
   // const itemTwoName ="Web Developer";
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div>
+      <NewProduct/>
       <Card>
         <Item name={response[0].itemName}></Item>
         <ItemDate day={response[0].itemDay} month={response[0].itemMonth} year={response[0].itemYear}></ItemDate>
