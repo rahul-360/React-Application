@@ -30,9 +30,7 @@ function App() {
   return (
     <div>
       <Card>
-        <Item name={response[0].itemName}>
-          Lorem ipsum <b>Lorem ipsum dolor sit amet.</b> dolor sit, amet consectetur adipisicing elit. Voluptatum ipsam dignissimos porro numquam, repellat minima tenetur inventore odit amet qui eius officiis quo aliquid aut totam necessitatibus aspernatur, dolores sint.
-        </Item>
+        <Item name={response[0].itemName}></Item>
         <ItemDate day={response[0].itemDay} month={response[0].itemMonth} year={response[0].itemYear}></ItemDate>
 
         <Item name={response[1].itemName}></Item>
